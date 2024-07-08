@@ -13,10 +13,6 @@ def even_number_of_evens(numbers):
 
         return True if evens and evens % 2 == 0 else False
 
-        # if evens:
-        #     return evens % 2 == 0
-        # else:
-        #     return False
     else:
         raise TypeError("A list was not passed into the function")
 
